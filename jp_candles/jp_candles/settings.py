@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'jp_candles_app.apps.JpCandlesAppConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
